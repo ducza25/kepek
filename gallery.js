@@ -8,7 +8,7 @@ document.body.appendChild(newDiv);
 */
 
 const container = document.querySelector("#container");
-console.log(container);
+const ValamiDiv = document.querySelector("#ValamiDiv");
 const kepek = ["delfin.jpg", "kutya.jpg", "cica.jpg"];
 
 for (const kep of kepek) {
@@ -17,4 +17,8 @@ for (const kep of kepek) {
   img.width = "200";
   console.log("kep:" + img.src);
   container.appendChild(img);
+  addEventListener("click", function () {
+    console.log(this.src);
+    targetImg.src = this.src;
+  });
 }

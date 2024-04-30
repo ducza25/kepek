@@ -12,9 +12,8 @@ html {
   padding-top: 60px;
 }
 
-
 #gombok {
-  background-color: #462449; 
+  background-color: #462449;
   border: none;
   color: white;
   padding: 15px 32px;
@@ -23,7 +22,6 @@ html {
   display: inline-block;
   font-size: 25px;
 }
-
 
 nav {
   background-color: rgb(49, 42, 73);
@@ -98,4 +96,13 @@ nav a:hover {
 
 body:has(#menuCheckBox:checked) {
   --bottom-menu-bottom-position: 50px;
+}
+
+#valamiDiv {
+  width: 400px;
+  height: 400px;
+  border: 1px rgb(241, 232, 232);
+}
+#valamiDiv {
+  width: 100%;
 }
